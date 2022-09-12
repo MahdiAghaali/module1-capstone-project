@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Lato, sans-serif;
+  src: url("../Resources/fonts/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: Cocogoose;
+  src: url("../Resources/fonts/Cocogoose.otf");
+}
+
+:root {
+  --firstColor: #272a31;
+  --secondColor: #ec5242;
+  --thirdColor: #d3d3d3;
+}
