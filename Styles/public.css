@@ -1,6 +1,26 @@
 @font-face {
-  font-family: Lato, sans-serif;
+  font-family: 'Lato-light';
   src: url("../Resources/fonts/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: 'Lato-bold';
+  src: url("../Resources/fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Lato-heavy';
+  src: url("../Resources/fonts/Lato-Heavy.ttf");
+}
+
+@font-face {
+  font-family: 'Lato-black';
+  src: url("../Resources/fonts/Lato-Black.ttf");
+}
+
+@font-face {
+  font-family: 'Lato-hairline';
+  src: url("../Resources/fonts/Lato-Hairline.ttf");
 }
 
 @font-face {
@@ -9,7 +29,7 @@
 }
 
 :root {
-  --firstColor: #272a31;
-  --secondColor: #ec5242;
-  --thirdColor: #d3d3d3;
+  --black: #272a31;
+  --orange: #ec5242;
+  --white: #d3d3d3;
 }
