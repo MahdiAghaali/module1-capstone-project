@@ -33,3 +33,7 @@
   --orange: #ec5242;
   --white: #d3d3d3;
 }
+
+* {
+  box-sizing: border-box;
+}
