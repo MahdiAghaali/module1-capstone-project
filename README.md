@@ -22,6 +22,7 @@ the many fields of which (European) energy markets consist.
 ## Live Demo (if available)
 
 [Live Demo Link](https://mahdiaghaali.github.io/module1-capstone-project/)
+[Loom video](https://www.loom.com/share/ff3497ea82c7463a807de2fa07d1728e)
 
 ## Author
 
