@@ -37,3 +37,76 @@
 * {
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+#menuContainer {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 5vw;
+  background-color: rgb(255 255 255 / 80%);
+  backdrop-filter: blur(5px);
+  color: var(--black);
+}
+
+#menuContainer > a {
+  width: 40%;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#menuContainer > a > img {
+  width: 100%;
+}
+
+#hambergerBtn.hidden {
+  display: none;
+}
+
+#menuContainer > #orangeBox,
+.desktop {
+  display: none;
+}
+
+#menuContainer.open {
+  display: flex;
+  flex-direction: column;
+}
+
+#menu.open {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  gap: 3vh;
+  padding: 0;
+}
+
+#menu a {
+  transition: all 0.2s;
+}
+
+#menu a:hover {
+  color: var(--orange) !important;
+}
+
+#menu.open a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+#closeMobileMenu {
+  align-self: flex-end;
+  margin-right: 5vw;
+  width: 10vw;
+  text-align: center;
+  height: 10vw;
+}

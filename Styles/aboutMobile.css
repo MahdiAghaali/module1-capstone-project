@@ -6,6 +6,10 @@ body {
   font-family: 'Lato-heavy', Arial, Helvetica, sans-serif;
 }
 
+.desktop {
+  display: none;
+}
+
 #backgroundOverlay {
   width: 100%;
   background-image: url(../Resources/Icons/bg-about.png), linear-gradient(to bottom, #f7f7f7ba, #f7f7f7 50%);
@@ -54,7 +58,8 @@ footer {
   object-fit: contain;
 }
 
-#prevousEvents {
+#prevousEvents,
+#eventContainer {
   display: flex;
   flex-direction: column;
   align-items: center;

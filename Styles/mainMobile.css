@@ -28,7 +28,8 @@ body {
   font-size: 2rem;
 }
 
-section {
+section,
+header {
   padding: 5vw;
 }
 
@@ -39,7 +40,7 @@ section {
 
 #intro > h1 {
   margin-top: 0;
-  background-image: linear-gradient(45deg, #ff1900, #ff19005c, var(--orange)), url(../Resources/Images/eem22-ljubljana-slovenia-1200x589.jpg);
+  background-image: linear-gradient(45deg, #ff1900, #ff19009c, var(--orange)), url(../Resources/Images/eem22-ljubljana-slovenia-1200x589.jpg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -76,6 +77,13 @@ section {
   font-size: 1.5rem;
 }
 
+#programContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
 .programItem {
   display: flex;
   font-size: 1rem;
@@ -97,6 +105,7 @@ section {
   color: white;
   font-size: 1.2rem;
   padding: 3vw;
+  text-align: center;
 }
 
 .horizontalDivider {
