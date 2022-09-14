@@ -50,11 +50,12 @@ const speakerData = [
 ];
 
 const speakerContainer = document.getElementById('speakerContainer');
-for (let i = 0; i < speakerData.length; i += 1) {
-  const {
-    image, name, job, description,
-  } = speakerData[i];
-  const htmlString = `<div class="sectionItem">
+if (speakerContainer !== null) {
+  for (let i = 0; i < speakerData.length; i += 1) {
+    const {
+      image, name, job, description,
+    } = speakerData[i];
+    const htmlString = `<div class="sectionItem">
                 <div class="img-container">
                     <img src="${image}">
                 </div>
@@ -65,5 +66,6 @@ for (let i = 0; i < speakerData.length; i += 1) {
                     <p>${description}</p>
                 </div>
             </div>`;
-  speakerContainer.insertAdjacentHTML('beforeend', htmlString);
+    speakerContainer.insertAdjacentHTML('beforeend', htmlString);
+  }
 }
