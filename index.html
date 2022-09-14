@@ -9,19 +9,69 @@
     <script src="https://kit.fontawesome.com/bee9655978.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./Styles/public.css">
     <link rel="stylesheet" href="./Styles/mainMobile.css">
+    <link rel="stylesheet" href="./Styles/mainDesktop.css">
+    <link rel="stylesheet" href="./Styles/publicDesktop.css">
     <title>
         Home - 18th International Conference on the European Energy Market (EEM)
     </title>
 </head>
 
 <body>
-    <section id="header">
+    <header id="header">
         <nav>
             <div id="hambergerBtn">
                 <i class="fa-solid fa-bars"></i>
             </div>
+            <div id="blackTopBar" class="desktop">
+                <ul>
+                    <li>
+                        Logout
+                    </li>
+                    <li>
+                        My page
+                    </li>
+                    <li>
+                        English
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-twitter"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </li>
+                </ul>
+
+            </div>
+            <div id="menuContainer" >
+                <a href="./index.html" id="homeLink">
+                    <img src="./Resources/Icons/eem22-logo.png" alt="eem22-logo">
+                </a>
+                <ul id="menu">
+                    <li id="closeMobileMenu">
+                        <i class="fa-solid fa-xmark"></i>
+                    </li>
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#mainProgram">Program</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">Join</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#partners">Partners</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">News</a>
+                    </li>
+                </ul>
+                <div id="orangeBox">
+                    EEM 22
+                </div>
+            </div>
         </nav>
-    </section>
+    </header>
     <section id="intro">
         <div id="backgroundOverlay"></div>
         <p>
@@ -44,39 +94,111 @@
     <section id="mainProgram">
         <h1>Main Program</h1>
         <span class="horizontalDivider"></span>
-        <div class="programItem">
-            <div class="programIcon">
-                <img src="./Resources/Icons/ignite.png">
+        <div id="programContainer">
+            <div class="programItem">
+                <div class="programIcon">
+                    <img src="./Resources/Icons/ignite.png">
+                </div>
+                <h2 class="programTitle">
+                    Ljubljana city tour
+                </h2>
+                <p class="programDescription">
+                    17:30 in front of the Faculty of Electrical Engineering (conference venue)
+                </p>
             </div>
-            <h2 class="programTitle">
-                Ljubljana city tour
-            </h2>
-            <p class="programDescription">
-                17:30 in front of the Faculty of Electrical Engineering (conference venue)
-            </p>
+            <div class="programItem">
+                <div class="programIcon">
+                    <img src="./Resources/Icons/ignite.png">
+                </div>
+                <h2 class="programTitle">
+                    Ljubljana city tour
+                </h2>
+                <p class="programDescription">
+                    17:30 in front of the Faculty of Electrical Engineering (conference venue)
+                </p>
+            </div>
+            <div class="programItem">
+                <div class="programIcon">
+                    <img src="./Resources/Icons/ignite.png">
+                </div>
+                <h2 class="programTitle">
+                    Ljubljana city tour
+                </h2>
+                <p class="programDescription">
+                    17:30 in front of the Faculty of Electrical Engineering (conference venue)
+                </p>
+            </div>
         </div>
-        <button type="button" id="btnJoinEvent">
+        
+        <a id="btnJoinEvent">
             Join 18th International Conference on EEM22
-        </button>
+        </a>
+
+        <a id="btnJoinEventdesktop" class="desktop">
+            SEE THE WHOLE PROGRAM
+        </a>
     </section>
     <section id="speakers">
         <h1>Speakers</h1>
-        <hr>
-        <div class="sectionItem">
-            <div class="img-container">
-                <img src="./Resources/Images/Picture-002.jpg">
+        <span class="horizontalDivider"></span>
+        <div id="speakerContainer">
+            <div class="sectionItem">
+                <div class="img-container">
+                    <img src="./Resources/Images/Picture-002.jpg">
+                </div>
+                <div class="speaker">
+                    <h3>ALESSIA D'ADDABBO</h3>
+                    <h4>Senior Analyst at Equinor</h4>
+                    <span class="devider"></span>
+                    <p>Ms. Alessia D'Addabbo has several years of experience in the energy industry, working in both private
+                        sector and within European associations. Currently working in Equinor as Senior Analyst with focus
+                        on Policy and Regulation for low carbon solutions and gas markets.</p>
+                </div>
             </div>
-            <div class="speaker">
-                <h3>ALESSIA D'ADDABBO</h3>
-                <h4>Senior Analyst at Equinor</h4>
-                <span class="devider"></span>
-                <p>Ms. Alessia D'Addabbo has several years of experience in the energy industry, working in both private
-                    sector and within European associations. Currently working in Equinor as Senior Analyst with focus
-                    on Policy and Regulation for low carbon solutions and gas markets.</p>
+            <div class="sectionItem">
+                <div class="img-container">
+                    <img src="./Resources/Images/Picture-002.jpg">
+                </div>
+                <div class="speaker">
+                    <h3>ALESSIA D'ADDABBO</h3>
+                    <h4>Senior Analyst at Equinor</h4>
+                    <span class="devider"></span>
+                    <p>Ms. Alessia D'Addabbo has several years of experience in the energy industry, working in both private
+                        sector and within European associations. Currently working in Equinor as Senior Analyst with focus
+                        on Policy and Regulation for low carbon solutions and gas markets.</p>
+                </div>
+            </div>
+            <div class="sectionItem">
+                <div class="img-container">
+                    <img src="./Resources/Images/Picture-002.jpg">
+                </div>
+                <div class="speaker">
+                    <h3>ALESSIA D'ADDABBO</h3>
+                    <h4>Senior Analyst at Equinor</h4>
+                    <span class="devider"></span>
+                    <p>Ms. Alessia D'Addabbo has several years of experience in the energy industry, working in both private
+                        sector and within European associations. Currently working in Equinor as Senior Analyst with focus
+                        on Policy and Regulation for low carbon solutions and gas markets.</p>
+                </div>
             </div>
         </div>
         <button type="button" id="showMoreSpeakers">More <i class="fa-solid fa-angle-down"></i></button>
     </section>
+    <section id="partners" class="desktop">
+        <h1>
+            Partner
+        </h1>
+        <span class="horizontalDivider"></span>
+        <div id="partnersContainer">
+            <img src="./Resources/Icons/lest-logo.svg" alt="lest-logo">
+            <img src="./Resources/Icons/ideaz-logo.svg" alt="ideaz-logo">
+            <img src="./Resources/Icons/uni-fe-logo.svg" alt="uni-fe-logo">
+        </div>
+    </section>
+    <footer class="desktop">
+        © 2022 EEM22 All rights reserved.
+    </footer>
+    <script src="./Scripts/public.js"></script>
 </body>
 
 </html>

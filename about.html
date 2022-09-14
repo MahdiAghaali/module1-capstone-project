@@ -9,6 +9,8 @@
     <script src="https://kit.fontawesome.com/bee9655978.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./Styles/public.css">
     <link rel="stylesheet" href="./Styles/aboutMobile.css">
+    <link rel="stylesheet" href="./Styles/aboutDesktop.css">
+    <link rel="stylesheet" href="./Styles/publicDesktop.css">
     <title>
         About - 18th International Conference on the European Energy Market (EEM)
     </title>
@@ -19,6 +21,53 @@
         <nav>
             <div id="hambergerBtn">
                 <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="blackTopBar" class="desktop">
+                <ul>
+                    <li>
+                        Logout
+                    </li>
+                    <li>
+                        My page
+                    </li>
+                    <li>
+                        English
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-twitter"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </li>
+                </ul>
+            </div>
+            <div id="menuContainer">
+                <a href="./index.html" id="homeLink">
+                    <img src="./Resources/Icons/eem22-logo.png" alt="eem22-logo">
+                </a>
+                <ul id="menu">
+                    <li id="closeMobileMenu">
+                        <i class="fa-solid fa-xmark"></i>
+                    </li>
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#mainProgram">Program</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">Join</a>
+                    </li>
+                    <li>
+                        <a href="./index.html#partners">Partners</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">News</a>
+                    </li>
+                </ul>
+                <div id="orangeBox">
+                    EEM 22
+                </div>
             </div>
         </nav>
     </header>
@@ -56,30 +105,34 @@
         <h1>
             18th International Conference on the European Energy Market (EEM) LOGO
         </h1>
-        <img src="./Resources/Icons/eem22-logo.svg" alt="eem22-logo" class="logo">
-        <img src="./Resources/Icons/eem22-logo.png" alt="eem22-logo" class="logo">
+        <div id="logoContainer">
+            <img src="./Resources/Icons/eem22-logo.svg" alt="eem22-logo" class="logo">
+            <img src="./Resources/Icons/eem22-logo.png" alt="eem22-logo" class="logo">
+        </div>
     </section>
     <section id="prevousEvents">
         <h1>
             Take a look at our prevous events.
         </h1>
-        <div id="eem21" class="eemItem">
-            <div class="overlay"></div>
-            <h2>
-                2021
-            </h2>
-            <p>
-                17TH INTERNATIONAL CONFERENCE ON THE EUROPEAN ENERGY MARKET
-            </p>
-        </div>
-        <div id="eem19" class="eemItem">
-            <div class="overlay"></div>
-            <h2>
-                2019
-            </h2>
-            <p>
-                16TH INTERNATIONAL CONFERENCE ON THE EUROPEAN ENERGY MARKET
-            </p>
+        <div id="eventContainer">
+            <div id="eem21" class="eemItem">
+                <div class="overlay"></div>
+                <h2>
+                    2021
+                </h2>
+                <p>
+                    17TH INTERNATIONAL CONFERENCE ON THE EUROPEAN ENERGY MARKET
+                </p>
+            </div>
+            <div id="eem19" class="eemItem">
+                <div class="overlay"></div>
+                <h2>
+                    2019
+                </h2>
+                <p>
+                    16TH INTERNATIONAL CONFERENCE ON THE EUROPEAN ENERGY MARKET
+                </p>
+            </div>
         </div>
     </section>
     <section id="partners">
@@ -93,7 +146,10 @@
             <img src="./Resources/Icons/uni-fe-logo.svg" alt="uni-fe-logo">
         </div>
     </section>
-
+    <footer class="desktop">
+        © 2022 EEM22 All rights reserved.
+    </footer>
+    <script src="./Scripts/public.js"></script>
 </body>
 
 </html>
