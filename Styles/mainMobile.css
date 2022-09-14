@@ -80,12 +80,13 @@ header {
 #programContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   gap: 5px;
 }
 
 .programItem {
   display: flex;
+  flex: 1 1 0;
   font-size: 1rem;
   align-items: center;
   justify-content: space-evenly;
