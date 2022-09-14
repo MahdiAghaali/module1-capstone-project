@@ -1,0 +1,66 @@
+@media screen and (min-width: 768px) {
+  #programContainer {
+    flex-direction: row;
+  }
+
+  .programItem {
+    flex-direction: column;
+    padding: 25px;
+  }
+
+  .programTitle {
+    font-size: 1.2em;
+  }
+
+  #btnJoinEvent {
+    display: none;
+  }
+
+  #btnJoinEventdesktop {
+    color: white;
+    display: block;
+    text-decoration: underline;
+    font-size: 1rem;
+  }
+
+  #speakerContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  #showMoreSpeakers {
+    display: none;
+  }
+
+  #partners {
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #partners > h1 {
+    margin-bottom: 0;
+  }
+
+  #partnersContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #partnersContainer > img {
+    width: 100%;
+  }
+
+  footer {
+    display: block !important;
+    color: var(--black);
+    background-color: var(--white);
+    text-align: center;
+    padding: 5vw;
+  }
+}
