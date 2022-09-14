@@ -17,3 +17,14 @@ function closeMobileMenu() {
 
 hambergerBtn.addEventListener('click', openMobileMenu);
 btnCloseMenu.addEventListener('click', closeMobileMenu);
+
+function moveBlackBar() {
+  const TopBar = document.getElementById('blackTopBar');
+  if (window.scrollY > 30 && window.innerWidth >= 768) {
+    TopBar.setAttribute('style', 'position: fixed; top:-100 ');
+  } else {
+    TopBar.style.cssText = ' position: absolute, top: 30px ';
+  }
+}
+
+window.addEventListener('scroll', moveBlackBar);
