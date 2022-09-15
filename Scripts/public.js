@@ -46,6 +46,18 @@ const speakerData = [
     job: 'CEO Dcbel Europe',
     description: 'Laurent Schmitt has joined dcbel early January 2022 as CEO of Dcbel Europe as well as head of Utility vertical. He has been working for the last 25 years through the Automation, IT and Digitisation of the Power Industry. ',
   },
+  {
+    image: './Resources/Images/Naida-Taso-web-576x384.jpg',
+    name: 'Naida Taso',
+    job: 'Renewable Energy Expert, Energy Community Secretariat ',
+    description: 'Ms. Naida Taso has ten years of international experience in areas of renewable energy, sustainable development, energy modelling and electricity markets.',
+  },
+  {
+    image: './Resources/Images/Pietro-Rabassi_new-576x542.png',
+    name: 'Pietro Rabassi',
+    job: 'Executive Vice President at Nord Pool AS ',
+    description: 'Pietro is Executive Vice President at Nord Pool AS and, acting as General Manager for this region, he is responsible for expanding Nord Pool’s business across Europe and creating greater value for its customers and stakeholders.',
+  },
 
 ];
 
@@ -56,16 +68,16 @@ if (speakerContainer !== null) {
       image, name, job, description,
     } = speakerData[i];
     const htmlString = `<div class="sectionItem">
-                <div class="img-container">
-                    <img src="${image}">
-                </div>
-                <div class="speaker">
-                    <h3>${name}</h3>
-                    <h4>${job}</h4>
-                    <span class="devider"></span>
-                    <p>${description}</p>
-                </div>
-            </div>`;
+                            <div class="img-container">
+                                <img src="${image}">
+                            </div>
+                            <div class="speaker">
+                                <h3>${name}</h3>
+                                <h4>${job}</h4>
+                                <span class="devider"></span>
+                                <p>${description}</p>
+                            </div>
+                        </div>`;
     speakerContainer.insertAdjacentHTML('beforeend', htmlString);
   }
 }
