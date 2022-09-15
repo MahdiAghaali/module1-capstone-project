@@ -58,10 +58,16 @@
   }
 
   footer {
-    display: block !important;
+    display: flex !important;
     color: var(--black);
     background-color: var(--white);
     text-align: center;
+    justify-content: space-around;
+    align-items: center;
     padding: 5vw;
+  }
+
+  #footer > img {
+    width: 20%;
   }
 }
