@@ -72,7 +72,7 @@ header {
   gap: 2vh;
 }
 
-#mainProgram > h1 {
+#mainProgram > h2 {
   margin-bottom: 0;
   font-size: 1.5rem;
 }
@@ -120,6 +120,7 @@ header {
 .horizontalDivider {
   width: 20%;
   border: 1px solid var(--orange);
+  margin-bottom: 30px;
 }
 
 #speakers {
