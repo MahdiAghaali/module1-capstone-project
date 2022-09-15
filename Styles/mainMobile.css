@@ -93,6 +93,13 @@ header {
   justify-content: space-evenly;
   gap: 10px;
   background-color: #ffffff26;
+  border: 3px solid transparent;
+}
+
+.programItem:hover {
+  background-color: #ffffff53;
+  cursor: pointer;
+  border: 3px solid white;
 }
 
 .programTitle {
