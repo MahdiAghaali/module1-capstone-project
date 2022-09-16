@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) {
+  #partners {
+    display: none;
+  }
+
+  footer {
+    display: block !important;
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: 5vw;
+  }
+
+  #eventContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #logoContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .logo {
+    padding: 3vw;
+    height: 100%;
+  }
+}

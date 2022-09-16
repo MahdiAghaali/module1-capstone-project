@@ -1,0 +1,106 @@
+@media screen and (min-width: 768px) {
+  #header {
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+
+  section {
+    padding: 10vw;
+  }
+
+  #hambergerBtn {
+    display: none;
+  }
+
+  #blackTopBar {
+    display: block;
+    background-color: var(--black);
+    color: white;
+    font-size: 1rem;
+    padding-right: 10vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'lato-light', Arial, Helvetica, sans-serif;
+  }
+
+  #blackTopBar > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    padding: 0;
+    gap: 2vw;
+  }
+
+  #menuContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    position: initial;
+  }
+
+  #homeLink {
+    width: auto !important;
+    margin: 0 !important;
+    height: 3rem;
+    display: block !important;
+  }
+
+  #menuContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  #menuContainer > #menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+    padding: 0;
+    gap: 3vw;
+  }
+
+  #menuContainer > #menu a {
+    text-decoration: none;
+    color: var(--black);
+  }
+
+  #orangeBox {
+    display: block !important;
+    padding: 5px;
+    color: var(--orange);
+    margin: 5px;
+    text-align: center;
+    border: 3px solid var(--orange);
+  }
+
+  #intro > h1 {
+    font-size: 3.5rem;
+  }
+
+  #intro > p:nth-of-type(2) {
+    padding: 3vw;
+    width: 60%;
+  }
+
+  .horizontalDivider {
+    width: 5% !important;
+  }
+
+  #closeMobileMenu {
+    display: none !important;
+  }
+}

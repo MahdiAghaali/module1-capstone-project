@@ -1,0 +1,183 @@
+body {
+  color: var(--black);
+  font-size: 1.5rem;
+  margin: 0;
+  background-image: url(../Resources/Images/eem22-ljubljana-slovenia-1200x589.jpg);
+  backdrop-filter: grayscale(100%);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #f7f7f7;
+  font-family: 'Lato-heavy', Arial, Helvetica, sans-serif;
+}
+
+#backgroundOverlay {
+  width: 100%;
+  background-image: url(../Resources/Icons/mobile-bg.png), linear-gradient(to bottom, #f7f7f7ba, #f7f7f7 50%);
+  height: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -45px;
+}
+
+#header {
+  font-size: 2rem;
+}
+
+section,
+header {
+  padding: 5vw;
+}
+
+#intro > p:first-of-type {
+  color: var(--orange);
+  margin-bottom: 0;
+}
+
+#intro > h1 {
+  margin-top: 0;
+  background-image: linear-gradient(45deg, #ff1900, #ff19009c, var(--orange)), url(../Resources/Images/eem22-ljubljana-slovenia-1200x589.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#intro > h2 {
+  font-family: Cocogoose, Arial, Helvetica, sans-serif;
+  color: #6c6c6c;
+  font-size: 1.7rem;
+}
+
+#intro > p:nth-of-type(2) {
+  background-color: #f7f7f7;
+  border: 3px solid white;
+  padding: 5vw;
+  font-size: 1rem;
+}
+
+#intro > p:nth-of-type(3) {
+  color: #6c6c6c;
+  font-size: 1.1rem;
+}
+
+#mainProgram {
+  background-image: url(../Resources/Icons/program-bg.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--white);
+  gap: 2vh;
+}
+
+#mainProgram > h2 {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+#programContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 5px;
+}
+
+.programItem {
+  display: flex;
+  flex: 1 1 0;
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  background-color: #ffffff26;
+  border: 3px solid transparent;
+}
+
+.programItem:hover {
+  background-color: #ffffff53;
+  cursor: pointer;
+  border: 3px solid white;
+}
+
+.programTitle {
+  font-size: 1em;
+  color: var(--orange);
+}
+
+#btnJoinEvent {
+  width: 80%;
+  background-color: var(--orange);
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 3vw;
+  text-align: center;
+}
+
+.horizontalDivider {
+  width: 20%;
+  border: 1px solid var(--orange);
+  margin-bottom: 30px;
+}
+
+#speakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+
+.sectionItem {
+  display: grid;
+  font-size: 1rem;
+  grid-template-columns: 30% 70%;
+  gap: 10px;
+}
+
+.img-container {
+  padding-left: 15px;
+  padding-top: 15px;
+  background-image: url(../Resources/Icons/chess.png);
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+}
+
+.img-container > img {
+  width: 100%;
+  border: 1px solid rgba(202, 202, 202, 0.536);
+}
+
+.speaker {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.speaker > h3 {
+  margin-bottom: 0;
+}
+
+.speaker > h4 {
+  color: var(--orange);
+  font-style: italic;
+  margin-top: 0;
+}
+
+.devider {
+  width: 10%;
+  border-top: 1px solid gray;
+}
+
+#showMoreSpeakers {
+  font-size: 1rem;
+  padding: 5vw;
+  width: 100%;
+  border: 1px solid var(--white);
+}
+
+#showMoreSpeakers > i {
+  color: var(--orange);
+}
