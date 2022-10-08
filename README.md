@@ -12,6 +12,8 @@ presents. The EEM is a common platform where challenges, solutions and ideas are
 the many fields of which (European) energy markets consist.
 
 
+# screenshot 
+![screenshot](capture.png)
 ## Built With
 
 - HTML5
