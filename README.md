@@ -13,7 +13,8 @@ the many fields of which (European) energy markets consist.
 
 
 # screenshot 
-![screenshot](capture.png)
+![screenshot](Capture.PNG)
+![screenshot](Capture2.PNG)
 ## Built With
 
 - HTML5
